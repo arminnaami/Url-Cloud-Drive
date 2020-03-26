@@ -47,6 +47,6 @@
 	</c:choose>
     </jsp:attribute>
     <jsp:attribute name="javascript">
-        <script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Bhadoo-Cloud-Drive/src/main/resources/static/js/uploads.js"></script>
+        <script src="${pageContext.request.contextPath}/js/uploads.js"></script>
     </jsp:attribute>
 </ui:templete>
